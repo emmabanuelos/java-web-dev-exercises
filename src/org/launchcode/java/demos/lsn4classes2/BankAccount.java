@@ -3,7 +3,9 @@ package org.launchcode.java.demos.lsn4classes2;
 import java.util.Objects;
 
 public class BankAccount {
-
+    //there is a relationship between the instance variables and the
+    // objects they belong to: describe in english as 'the bank account "has a" balance'
+    //should consider this statement when creating your classes.
     private double balance;
     private int accountNo;
     private static int nextAccountNumber = 700;
